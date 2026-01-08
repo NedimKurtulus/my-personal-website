@@ -5,14 +5,15 @@
       "src": "frontend/package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "build"
+        "distDir": "build",
+        "zeroConfig": false
       }
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "frontend/build/$1"
+      "dest": "/index.html"
     }
   ]
 }
