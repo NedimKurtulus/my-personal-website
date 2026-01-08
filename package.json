@@ -1,13 +1,8 @@
 {
-  "dependencies": {
-    "@types/react-router-dom": "^5.3.3",
-    "axios": "^1.13.2",
-    "flowbite": "^4.0.1",
-    "flowbite-react": "^0.12.14",
-    "react-router-dom": "^7.11.0"
-  },
   "scripts": {
-    "build": "cd backend && npm install",
-    "start": "cd backend && node server.js"
+    "build": "npm run build:backend && npm run build:frontend",
+    "build:backend": "cd backend && npm ci && npm run build",
+    "build:frontend": "cd frontend && npm ci && npm run build",
+    "start": "cd backend && npm run start:prod"
   }
 }
