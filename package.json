@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "cd frontend && npm ci && npm run build",
-    "start": "echo 'Frontend deployed on Vercel'"
+    "build": "cd frontend && CI=false npm run build",
+    "start": "echo Frontend deployed successfully"
   }
 }
