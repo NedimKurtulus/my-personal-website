@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@types/react-router-dom": "^5.3.3",
+    "axios": "^1.13.2",
+    "flowbite": "^4.0.1",
+    "flowbite-react": "^0.12.14",
+    "react-router-dom": "^7.11.0"
+  }
+}
