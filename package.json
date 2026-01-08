@@ -1,6 +1,8 @@
 {
+  "name": "my-personal-website",
+  "private": true,
   "scripts": {
     "build": "cd frontend && CI=false npm run build",
-    "start": "echo Frontend deployed successfully"
+    "start": "cd frontend && npm start"
   }
 }
