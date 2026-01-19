@@ -31,3 +31,16 @@ Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyebi
 ```bash
 git clone [https://github.com/NedimKurtulus/my-personal-website.git](https://github.com/NedimKurtulus/my-personal-website.git)
 cd my-personal-website
+```bash
+### 2. Backend Kurulumu
+Bash
+
+cd backend
+npm install
+npm run start:dev
+3. Frontend Kurulumu
+Bash
+
+cd ../frontend
+npm install
+npm start
